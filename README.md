@@ -5,7 +5,7 @@
    4. Tips for better sleep and peace of mind during this pandemic. 
 
 # Solution - 
-->  A website with the latest Covid data.
+-> A website with the latest Covid data.
 -> Protocols and protection tips for users provided by WHO.
 -> Vaccine Availability check.
 -> Tips and music for meditation for peaceful mind and better sleep.
@@ -86,3 +86,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+Demo link =  https://everything-at-once.netlify.app/
