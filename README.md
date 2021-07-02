@@ -1,3 +1,21 @@
+# Problem statement - A system where, 
+   1. Users can get details of Covid-19 cases globally, in India and in their states.
+   2. They can get vaccine availability in their area using their PinCode.
+   3. Users can get all the Covid protocols provided by WHO.  
+   4. Tips for better sleep and peace of mind during this pandemic. 
+
+# Solution - 
+->  A website with the latest Covid data.
+-> Protocols and protection tips for users provided by WHO.
+-> Vaccine Availability check.
+-> Tips and music for meditation for peaceful mind and better sleep.
+
+
+# Tech stack Used :
+Frontend - ReactJS, Bootstrap, CSS
+API - API Setu, CovidAPI
+Hosted on - netlify.com
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
