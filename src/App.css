@@ -1,38 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar{
+  margin-bottom: 0 !important; 
+} 
+.home{
+  width: 50vw;
+  height: 100vh;
+  display: block;
+  margin: auto;
+}
+.img-home{
+  width: 75%;
+}
+.latestdata{
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;   
+}
+.country-data, .state-data{
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px; 
+  background-color: rgb(226, 226, 226);
+}
+.latestdata h1{
+  color: black;
+  font-family: 'Poppins', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.latestdata .confirmed-cases{ 
+  margin: 15px;
+  padding: 10px;
+  border: 4px solid green; 
+  background-color: rgb(82, 167, 82);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.latestdata .death-cases{ 
+  margin: 15px;
+  padding: 10px; 
+  border: 4px solid red; 
+  background-color: rgb(204, 132, 132);
+}
+
+.latestdata .recovered-cases{ 
+  margin: 15px;
+  padding: 10px; 
+  border: 4px solid rgb(71, 71, 163); 
+  background-color: skyblue;
+} 
+.v-header{
+  font-family: 'Acme', sans-serif;
+}
+.vaccine-avail{
+  margin-top: 20px;
+  width: 50%;
+  height: 50vh;
+  padding: 10px;
+  box-shadow: 2px 4px 8px 4px rgb(218, 215, 215);
+}
+.vaccine-form{
+  height: 80%;
+  padding: 20px; 
+}
+.region-detail{
+  font-weight: bold;
+  color: coral;
+}
+.vaccine-data thead th{
+  text-align: center;
+  background-color: cornflowerblue;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.state-table{
+  background-color: white;
+} 
+.state-table thead th{
+ text-align: center;
+ background-color: rgba(0, 0, 0, 0.616);
+ color: white;
+}
+.motivation{ 
+  padding: 20px;
+  box-shadow: 2px 2px 2px 2px gray;
+  margin-bottom: 30px;
+  background-color: rgba(100, 148, 237, 0.692);
+  border-radius: 20px;
+}
+.motivation-para{
+  font-size: large;
+  color: white;
+  font-family: 'Roboto Slab', serif; 
+  text-align: justify;
+  font-weight: bold;
+}
+.motivation span{
+  font-weight: bold;
+  color: green;
+  text-align: center;
+  font-size: larger;
+}
+.slider-div{
+  margin-bottom: 20px;
+}
+.adv{
+  padding: 2px;
+  border: 1px solid rgb(156, 153, 153);
+  background-color: rgba(177, 208, 248, 0.274);
+  margin: 8px;
+}
+.adv-ques{
+  font-weight: bold; 
+  text-align: left;
+  font-size: 30px;
+  font-family: 'Roboto Slab', serif;
+}
+.adv-para{
+  text-align: justify;
+  font-size: large;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+} 
+.adv-ans img{
+  width: 60%;
+}
+.adv-header{
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 20px;
+} 
+.meditation{ 
+  background-image: linear-gradient(
+    180deg, #708BB1, #F07D84,#C35E83 ); 
+  width: 99vw;  
+  height: 100vh;
+} 
+.main-div{
+   padding: 10px;
+} 
+.sleep{
+  margin-left: 30px;
+}
+.sleep, .peace{
+  border: 1px solid black;
+  text-align: justify;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  margin-top: 50px; 
+  padding: 30px;
+  height: 50vh;
+} 
+.music{
+  margin: 50px auto;
+  display: block;
+  width: 80%;
+}
+.med-header{
+  font-family: 'Dancing Script', cursive;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media(max-width: 650px){
+  .home{
+    width: 95vw;
   }
-  to {
-    transform: rotate(360deg);
+  .img-home{
+    width: 100%;
+  }
+  .v-header{
+    font-size: 30px;
+  }
+  .slider-div, .slide, .slider-img{
+    height:50vh !important;
+  }
+  .vaccine-avail{
+    width: 80%;
+  }
+  .meditation{
+    height: max-content; 
+    width: 100vw;
+  }
+  .med-header{
+    font-size: 20px;
+  } 
+  .sleep, .peace{
+    margin-left: 20px;
+    width: 90%;
+    height: auto;
+  }
+  .adv-ques{
+    font-size: medium;
+  }
+  .adv-para{
+    font-size: 14px;
   }
 }

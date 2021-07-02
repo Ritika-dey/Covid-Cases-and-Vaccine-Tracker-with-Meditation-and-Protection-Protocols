@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "ques":"How to keep yourself and others safe from COVID?",
+        "ans":"Maintain at least a 1-metre distance between yourself and others to reduce your risk of infection when they cough, sneeze or speak. Maintain an even greater distance between yourself and others when indoors. The further away, the better. Make wearing a mask a normal part of being around other people. The appropriate use, storage and cleaning or disposal are essential to make masks as effective as possible.",
+        "image":"https://www.who.int/images/default-source/health-topics/coronavirus/tile_prepare_your_space_self_isolation_5_3.jpg?sfvrsn=2f582150_5"
+    },
+    {
+        "id":2,
+        "ques":"How to make enviornment safer?",
+        "ans":"Avoid spaces that are closed, crowded. The risks of getting COVID-19 are higher in crowded and inadequately ventilated spaces where infected people spend long periods of time together in close proximity. These environments are where the virus appears to spread by respiratory droplets or aerosols more efficiently, so taking precautions is even more important.",
+        "image":"https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/infographic-covid-19-transmission-and-protections-final2.jpg?Status=Temp&sfvrsn=7fc5264a_0"
+    },
+    {
+        "id":3,
+        "ques":"How to wear a mask?",
+        "ans":"Clean your hands before you put your mask on, as well as before and after you take it off, and after you touch it at any time. Make sure it covers both your nose, mouth and chin. When you take off a mask, store it in a clean plastic bag, and every day either wash it if it’s a fabric mask, or dispose of a medical mask in a trash bin. Don’t use masks with valves.",
+        "image":"https://www.who.int/images/default-source/health-topics/coronavirus/masks-infographic---final-(a4---web---rgb).png?sfvrsn=cb3153cf_13"
+    },
+    {
+        "id":4,
+        "ques":"What to do if feel unwell",
+        "ans":"Stay home and self-isolate even if you have minor symptoms such as cough, headache, mild fever, until you recover. If you have a fever, cough and difficulty breathing, seek medical attention immediately. Call by telephone first, if you can and follow the directions of your local health authority.",
+        "image":"https://www.who.int/images/default-source/health-topics/coronavirus/person-sick-in-your-household-prepare.tmb-1920v.jpg?sfvrsn=6736e6e5_7"
+    },
+    {
+        "id":5,
+        "ques":"How to visit healthcare facilities safely?",
+        "ans":"Maintain social distancing, wear mask and wash hands frequently.",
+        "image":"https://www.who.int/images/default-source/health-topics/coronavirus/health-care-facilities_8_1-01.png?Status=Master&sfvrsn=823c9ad5_3/"
+    }
+]
